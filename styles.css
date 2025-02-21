@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+pre.code-snippet {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+pre.code-snippet code {
+    display: block;
+    color: #030001;
+    font-family: "Courier New", Courier, monospace;
+}
