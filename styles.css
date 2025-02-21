@@ -19,3 +19,7 @@ pre.code-snippet code {
     color: #030001;
     font-family: "Courier New", Courier, monospace;
 }
+.bold-code {
+    font-weight: bold;
+    color: #000;
+}
