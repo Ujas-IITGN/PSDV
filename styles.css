@@ -1,25 +1,19 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+/* Apply a global box-sizing rule */
+* {
+    box-sizing: border-box;
 }
 
-h1 {
-    color: #333;
+/* Style for the container */
+.container {
+    max-width: 800px; /* Maximum width for large screens */
+    margin: 0 auto;   /* Center the container */
+    padding: 20px;    /* Space around the content */
 }
 
-pre.code-snippet {
-    background-color: #f4f4f4;
-    border: 1px solid #ccc;
-    padding: 10px;
-    overflow-x: auto;
-}
-
-pre.code-snippet code {
-    display: block;
-    color: #030001;
-    font-family: "Courier New", Courier, monospace;
-}
-.bold-code {
-    font-weight: bold;
-    color: #000;
+/* Ensure the container takes full width on smaller screens */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
 }
